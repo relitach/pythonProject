@@ -8,6 +8,6 @@ node{
     bat "dir"
     }
     stage("run python"){
-    python main.py
+    bat "python main.py"
     }
 }
