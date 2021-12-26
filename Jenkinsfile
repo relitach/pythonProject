@@ -7,4 +7,7 @@ node{
     stage("show files"){
     bat "dir"
     }
+    stage("run python"){
+    python main.py
+    }
 }
